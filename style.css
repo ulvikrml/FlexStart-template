@@ -157,6 +157,7 @@ nav,.container-fluid{
 
 .header{
     text-align: center;
+    margin-bottom: 35px;
 }
 .header h2{
     color: #4154f1;
@@ -315,6 +316,16 @@ nav,.container-fluid{
 }
 .accordion-button[aria-expanded="true"] .accordion-item{
     border: none !important;
+}
+@media screen and (max-width:778px){
+    #accordionFlushExample{
+        padding: 0px !important;
+    }
+}
+@media screen and (max-width:576px){
+    .faq .col-md-6{
+        padding: 0px 30px;
+    }
 }
 
 /*     TEAM     */
@@ -651,6 +662,13 @@ nav,.container-fluid{
 @media (min-width: 768px) {
     .team .card{
         width: 320px !important;
+    }
+} 
+@media (max-width: 768px) {
+    .team .col-md-6{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 30px;
     }
 } 
 @media (min-width: 992px) {
